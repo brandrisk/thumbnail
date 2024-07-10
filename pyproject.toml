@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thumbnail"
+version = "0.1"
+dependencies = ["click", "pillow", "colorama"]
+
+[project.scripts]
+make = "thumbnail:make"
+getsize = "thumbnail:getsize"
