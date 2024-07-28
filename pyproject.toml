@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "thumbnail"
-version = "0.1"
+version = "0.2"
 dependencies = ["click", "pillow", "colorama"]
 
 [project.scripts]
